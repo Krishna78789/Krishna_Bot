@@ -149,7 +149,7 @@ async def upload(bot: Client, m: Message):
 
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             url =  "https://madxapi-d0cbf6ac738c.herokuapp.com/" + id + "/master.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDEwMjQzMzMuMDQ2LCJkYXRhIjp7Il9pZCI6IjY2M2ExZDRlZDUyYjBhNGZjMzE1Zjk3ZCIsInVzZXJuYW1lIjoiOTI1MzEyNTEwMyIsImZpcnN0TmFtZSI6IkFycGl0YSIsIm9yZ2FuaXphdGlvbiI6eyJfaWQiOiI1ZWIzOTNlZTk1ZmFiNzQ2OGE3OWQxODkiLCJ3ZWJzaXRlIjoicGh5c2ljc3dhbGxhaC5jb20iLCJuYW1lIjoiUGh5c2ljc3dhbGxhaCJ9LCJlbWFpbCI6Im1paGlydGhha3VyOTU0M0BnbWFpbC5jb20iLCJyb2xlcyI6WyI1YjI3YmQ5NjU4NDJmOTUwYTc3OGM2ZWYiXSwiY291bnRyeUdyb3VwIjoiSU4iLCJ0eXBlIjoiVVNFUiJ9LCJpYXQiOjE3NDA0MTk1MzN9.cBlNNYQByfDG70Z2EEw8czRrra0BfkE-MtMP_CTPQvQ"
+             url =  "https://madxapi-d0cbf6ac738c.herokuapp.com/" + id + "/master.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDE0MzEwOTIuNDE0LCJkYXRhIjp7Il9pZCI6IjY2OTQ5OTU2ZjU4MDhmOWJkOTZlZjc0NSIsInVzZXJuYW1lIjoiNzAwNzIxNzEwOSIsImZpcnN0TmFtZSI6IkFudWJoYXYgS2FzaHlhcCIsImxhc3ROYW1lIjoiS2FzaHlhcCIsIm9yZ2FuaXphdGlvbiI6eyJfaWQiOiI1ZWIzOTNlZTk1ZmFiNzQ2OGE3OWQxODkiLCJ3ZWJzaXRlIjoicGh5c2ljc3dhbGxhaC5jb20iLCJuYW1lIjoiUGh5c2ljc3dhbGxhaCJ9LCJlbWFpbCI6Imthc2h5YXBhbnViaGF2OTAwMEBnbWFpbC5jb20iLCJyb2xlcyI6WyI1YjI3YmQ5NjU4NDJmOTUwYTc3OGM2ZWYiXSwiY291bnRyeUdyb3VwIjoiSU4iLCJ0eXBlIjoiVVNFUiJ9LCJpYXQiOjE3NDA4MjYyOTJ9.ucr4nCH0uMCsTtwt_ouPu9Vzc5MjxLoOXjBQJ9d2ghQ"
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) {name1[:60]}'
